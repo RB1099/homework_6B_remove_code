@@ -34,7 +34,7 @@ for(let i=0;i<carts.length;i++)
     });
 }
 
-var removeCartItemButtons = document.querySelectorAll('remove-item');
+var removeCartItemButtons = document.querySelectorAll('.remove-item');
 console.log(removeCartItemButtons.length);
 for (var i = 0; i < removeCartItemButtons.length; i++) {
     removeCartItemButtons[i].addEventListener('click', () => {
