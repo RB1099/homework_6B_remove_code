@@ -1,0 +1,342 @@
+/*From https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
+/* The sidebar menu */
+#sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 15.625em; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #E5E5E5; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+/* The navigation menu links */
+#sidenav a {
+  padding: 0.5em 0em 1.5em 0em;
+  text-decoration: none;
+  text-align: center;
+  font-family: Arial, Helvetica, sans serif;
+  font-size: 1.5625em;
+  /* https://stackoverflow.com/questions/38205797/how-to-combine-bold-and-italic-in-css */
+  font-weight:bold;
+  font-style: italic;
+  color: black;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+#sidenav a:hover {
+  color: #FFFEF0;
+}
+
+header {
+  font-family: Arial, Helvetica, sans serif;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#container {
+    width: 100%;
+    margin: 10px auto;
+}
+#cart {
+  float:right;
+  padding-right: 0.35em;
+}
+#title {
+  margin-top: -0.1em;
+}
+
+#top_row {
+  padding-left: 15.625em;
+}
+
+#content {
+  float: left;
+  padding-top:1em;
+  padding-left: 15.625em;
+  font-family: Arial, Helvetica, sans serif;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+  margin-top:3em;
+  padding-left: 40em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  width: 84%; /* Full width */
+}
+
+li {
+  float: left;
+}
+
+li a {
+
+  color: black;
+
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  border-bottom:0.25em solid;
+}
+html 
+{
+  background-color: #FFFEF0;
+}
+
+#cart-img {
+  max-width: 3em;
+  max-height: 3em;
+}
+
+.productHome {
+  max-height: 37.3125em;
+  max-width: 37.3125em;
+}
+
+.options label{
+  padding-left: 1em;
+}
+
+.options select {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  background-color: #FFFEF0;
+}
+
+.checkout {
+  padding-top: 1em;
+  padding-left: 6em;
+  padding-bottom: 2.5em;
+}
+
+.block {
+  width: 40%;
+  background-color: #FFFEF0;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-family: Arial, Helvetica, sans serif;
+  font-style:italic;
+  font-weight:bold;
+  border:1px solid black;
+}
+
+#contentCouchPillow {
+  float:left;
+  padding-left: 15.625em;
+  margin-top: 3em;
+  font-family: Arial, Helvetica, sans serif;
+  font-style:italic;
+  font-weight:bold;
+}
+
+#desc {
+  max-width: 38em;
+}
+
+#item {
+  float:left;
+}
+
+#choices {
+  float:right;
+}
+
+#colorRow{
+  padding-left:6em;
+  padding-top: 4em;
+  font-family:Arial, Helvetica, sans serif;
+  font-size: 1.25em;
+  font-style: italic;
+  font-weight:bold;
+}
+
+.dropdownPpg {
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  background-color: #FFFEF0;
+}
+
+#fillingRow{
+  padding-left:6em;
+  padding-top: 130px;
+  font-family:Arial, Helvetica, sans serif;
+  font-size: 1.25em;
+  font-style: italic;
+  font-weight:bold;
+}
+#quantityRow{
+  padding-left:6em;
+  padding-top: 130px;
+  font-family:Arial, Helvetica, sans serif;
+  font-size: 1.25em;
+  font-style: italic;
+  font-weight:bold;
+}
+.viewInAR
+{
+  padding-left:10em;
+  padding-top: 7em;
+}
+.blockPpg{
+  width: 100%;
+  background-color: #FFFEF0;
+  padding: 1em 1em;
+  font-size: 1.25em;
+  cursor: pointer;
+  text-align: center;
+  font-family: Arial, Helvetica, sans serif;
+  font-style:italic;
+  font-weight:bold;
+  border:0.01em solid black;
+}
+.addToCart{
+  padding-left:10em;
+  padding-top: 6em;
+}
+.orderNow{
+  padding-left:10em;
+  padding-top: 1em; 
+}
+.contactButton{
+  padding-top: 3em;
+}
+.contactUsBlock
+{
+  width: 100%;
+  background-color: #FFFEF0;
+  padding: 1em 13em;
+  font-size: 1.25em;
+  cursor: pointer;
+  text-align: center;
+  font-family: Arial, Helvetica, sans serif;
+  font-style:italic;
+  font-weight:bold;
+  border:none;
+  /* From https://www.w3schools.com/css/css3_borders.asp */
+  border-radius: 2em;
+}
+#ig
+{
+  background-color:#FFD9D9;
+}
+#fb
+{
+  background-color:#B8D9FF;
+}
+#twitter
+{
+  background-color:#95F2FF;
+}
+#em
+{
+  background-color:#CFBDED;
+}
+#cu
+{
+  background-color:#B4BFA7;
+}
+#fu
+{
+  background-color:#B48989;
+}
+.spacing{
+  padding-left: 132px;
+}
+
+
+
+
+
+/*Inspired by https://www.youtube.com/watch?v=B20Getj_Zk4&list=PLD9SRxG6ST3HignjcXUX6w8RcT0_b5ihV */
+
+.products-container {
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+.product-header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  padding-top:50px;
+  font-family: Arial, Helvetica, sans serif;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: bold;
+}
+.product-title {
+  width:45%;
+}
+.price {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+}
+.quantity {
+  width: 30%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+}
+.total {
+  width: 10%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items:center;
+}
+.product {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgrey;
+}
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.products img {
+  width: 75px;
+}
+.basketTotalContainer
+{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0;
+}
+.basketTotalTitle
+{
+  width: 30%;
+}
+.basketTotal 
+{
+  width: 10%;
+}
